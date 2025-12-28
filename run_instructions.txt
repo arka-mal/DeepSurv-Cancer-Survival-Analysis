@@ -1,4 +1,4 @@
-DeepSurv Cancer Progression Prediction
+DeepSurv Cancer Survival Analysis
 =====================================
 
 1. Install Python (version 3.8 or higher)
@@ -23,3 +23,4 @@ DeepSurv Cancer Progression Prediction
    - Model performance metrics (C-index, IBS, AUC)
    - Comparison plots
    - Kaplan–Meier curves
+
