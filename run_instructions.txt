@@ -1,0 +1,25 @@
+DeepSurv Cancer Progression Prediction
+=====================================
+
+1. Install Python (version 3.8 or higher)
+
+2. Create a virtual environment (optional but recommended):
+   python -m venv venv
+   source venv/bin/activate  (Linux/Mac)
+   venv\Scripts\activate     (Windows)
+
+3. Install required packages:
+   pip install -r requirements.txt
+
+4. Download the METABRIC dataset from Kaggle:
+   https://www.kaggle.com/datasets/gunesevitan/breast-cancer-metabric
+
+5. Place METABRIC.csv in the project directory.
+
+6. Run the main script:
+   python main.py
+
+7. The script outputs:
+   - Model performance metrics (C-index, IBS, AUC)
+   - Comparison plots
+   - Kaplan–Meier curves
